@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+# Projects
+bin/
+build/
+lib/
