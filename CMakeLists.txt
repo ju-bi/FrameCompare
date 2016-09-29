@@ -15,6 +15,5 @@ endif()
 # Project settings
 set(frcmp_target "frcmp")
 file(GLOB frcmp_files RELATIVE ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/src/*.cpp ${CMAKE_SOURCE_DIR}/src/*.h)
-message("frcmp_files = '${frcmp_files}'")
 add_executable(${frcmp_target} ${frcmp_files})
 target_link_libraries(${frcmp_target} ${OpenCV_LIBS})
